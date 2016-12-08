@@ -1,1 +1,27 @@
-d
+@font-face {
+    font-family: 'changaregular';
+    src: url('../fonts/changa-regular-webfont.woff2') format('woff2'),
+         url('../fonts/changa-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'chunkfiveroman';
+    src: url('../fonts/chunkfive-webfont.woff2') format('woff2'),
+         url('../fonts/chunkfive-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container{ border: solid red;  max-width: 70ex; }
+  .right{ border: solid blue;  max-width: 70ex; }
+
+.container {
+  float: left;
+}
+
+.right{
+  float: right;}
